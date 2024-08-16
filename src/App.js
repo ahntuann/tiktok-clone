@@ -1,11 +1,11 @@
-import Button from '~/Components/Button/index'
+import Button from '~/Components/Button/index';
 
 function App() {
-  return (
-    <div className="App">
-      <Button />
-    </div>
-  );
+    return (
+        <div className="App">
+            <Button />
+        </div>
+    );
 }
 
 export default App;
