@@ -24,8 +24,18 @@
     align-items: center;
 }
 
-.search {
+.search-title {
+    font-size: 1.4rem;
+    color: #929292;
+    padding: 0 0 6px 10px;
+}
+
+.search,
+.search-result {
     width: 500px;
+}
+
+.search {
     height: var(--search-height);
     padding: 0 0 0 16px;
     background-color: var(--search-input-background-color);
