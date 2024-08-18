@@ -98,3 +98,15 @@
     color: var(--text-color);
     opacity: 0.6;
 }
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
+.more-btn {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-left: 28px;
+    padding: 4px 8px;
+}

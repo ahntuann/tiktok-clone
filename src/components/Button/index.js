@@ -13,6 +13,7 @@ function Button({
     large = false,
     text = false,
     disabled = false,
+    className,
     leftIcon,
     rightIcon,
     children,
@@ -38,6 +39,7 @@ function Button({
     }
 
     const classes = cs('wrapper', {
+        [className]: className,
         primary,
         outline,
         small,
