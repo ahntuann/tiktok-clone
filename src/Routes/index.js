@@ -8,5 +8,5 @@ export const publicRoutes = () => [
     { path: '/', element: Home },
     { path: '/following', element: Following },
     { path: '/upload', element: Upload, layout: HeaderOnly },
-    { path: '/profile', element: Profile, layout: null },
+    { path: '/:nickname', element: Profile },
 ];
